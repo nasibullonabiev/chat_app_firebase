@@ -42,7 +42,7 @@ class _AuthScreenState extends State<AuthScreen> {
           email: _enteredEmail,
           password: _enteredPassword,
         );
-        FirebaseStorage
+
       }
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-used') {}
